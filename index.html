@@ -1,39 +1,26 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html>
-
 <head>
   <title>Website Demo</title>
   <link rel="icon" type="image/png" href="favicon.png">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-  <style>
-    body {
-      background-color: whitesmoke;
-      font-family: "Tahoma", Geneva, sans-serif;
-    }
-    h1 { color: rgb(0,90,150); }
-    img {
-      padding: 20px;
-      height: 600px;
-    }
-    .purple-container {
-      background-color: purple;
-    }
-  </style>
+  <link href="styles.css" rel="stylesheet">
+  <script src="script.js" defer></script>
 </head>
-
 <body>
-  <h1>This is such a cool website!!</h1>
-  <p>Welcome to my personal website! Please enjoy your stay.</p>
-  <a href="https://ncase.me/trust/">The Evolution of Trust</a>
-  <img src="https://www.nasa.gov/sites/default/files/thumbnails/image/apollo08_earthrise.jpg" alt="Earthrise">
-  <ul>
-    <li>Item 1</li>
-    <li>Item 2</li>
-  </ul>
-  <div>Block-level element</div>
-  <span>Inline element</span>
-  <div class="purple-container">Purple background?</div>
+  <p id="welcome">Welcome</p>
+  <h1>Cat Types</h1>
+  <p>Cats vary in many ways, including personality and color.</p>
+  <p class="underline">Personality types:</p>
+  <ol>
+    <li class="hoverable">Shy</li>
+    <li class="hoverable">Aggressive</li>
+    <li class="hoverable">Playful</li>
+  </ol>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Cat_poster_1.jpg/320px-Cat_poster_1.jpg">
+  <p class="hoverable">Learn more:
+    <a href="https://en.wikipedia.org/wiki/Cat">
+      wikipedia.org/wiki/Cat
+    </a>
+  </p>
 </body>
-
 </html>
